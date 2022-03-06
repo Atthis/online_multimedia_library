@@ -1,0 +1,29 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bookResult {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bookResult div {
+  max-width: 300px;
+  margin: 5px;
+  background-color: bisque;
+  border: 1px solid black;
+}
+
+.bookList {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
